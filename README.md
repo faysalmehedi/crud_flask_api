@@ -21,15 +21,15 @@
 
 # API's:
 
-- @app.route('/api/v1/insert', methods=['POST', 'GET'])
+01. @app.route('/api/v1/insert', methods=['POST', 'GET'])
  - Take Json format data and added entry to the postgres database
-- @app.route('/api/v1/getall', methods=['GET'])
+02. @app.route('/api/v1/getall', methods=['GET'])
  - Return all the data in Json Format
-- @app.route('/api/v1/get/<name>', methods=['GET'])
+03. @app.route('/api/v1/get/<name>', methods=['GET'])
  - Return data for given name in json format
-- @app.route('/api/v1/update/<name>', methods=['PUT', 'GET'])
+04. @app.route('/api/v1/update/<name>', methods=['PUT', 'GET'])
  - take name as parameter for query which entry have to update and update data according given new Json format data
-- @app.route('/api/v1/delete/<name>', methods=['DELETE', 'GET'])
+05. @app.route('/api/v1/delete/<name>', methods=['DELETE', 'GET'])
  - take name as parameter to delete the record in the database
 
 
